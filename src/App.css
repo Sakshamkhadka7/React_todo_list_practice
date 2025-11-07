@@ -1,0 +1,117 @@
+
+
+.date-and-action{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.due-date{
+  font-size: 0.9rem;
+  color: #6c757d;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+
+.modal-content-box{
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgb(0,0,0,0.3);
+  width: 90%;
+  max-width: 500px;
+}
+
+
+.form_css {
+  position: fixed; /* Fixed position relative to the viewport */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  /* Background behind the modal to block interaction */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  
+  /* Centering the form content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Ensure it's above other elements */
+  z-index: 1000;
+}
+
+.add {
+  font-size: 35px;
+  color: #007bff;
+  margin-left: 40px;
+  margin-top: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.add:hover {
+  transform: scale(1.1);
+}
+.box {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 80%;
+}
+
+.items li {
+  background: #f3f6fa;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.box input {
+  width: 300px;
+  height: 35px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.head {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+.container {
+  margin-top: 100px;
+  min-height: 50vh;
+  width: 700px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
